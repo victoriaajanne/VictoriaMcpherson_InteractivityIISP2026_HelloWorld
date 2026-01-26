@@ -1,35 +1,47 @@
-<!DOCTYPE html>   <!--Declares this is an HTML5 document-->
-<html lang="en">   <!--html element is always the root element of the page-->
-<head>   <!--Contains metadata about the document-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My First Web Page</title>
+<link rel="stylesheet" href="stylee.css">
+
 </head>
-<body>  <!--Contains the visible page content-->
-    Hello, World!
-   <h1>My Online Journal</h1>
-<h2>A Small Moment From My Day</h2>
+<body class="page-body"> 
 
-<p>
-  Today I went on a walk outside with my dog. Watching the snow come down as we walked was quite nice. 
-</p>
-<section>
-  <div>
-    <p>
-      <i>We usually wake up </i> <strong>early</strong> <b>to go on our walk. </b> <br> But today since it was so cold and gloomy we slept in. 
+  <header class="header">
+    <h1 class="main-title">My Online Journal</h1>
+  </header>
+
+  <main class="journal-content">
+    <h2 class="journal-subtitle">A Small Moment From My Day</h2>
+
+    <p class="journal-entry">
+      Today I went on a walk outside with my dog. Watching the snow come down as we walked was quite nice. 
     </p>
-  </div>
-</section>
-<p>
-  I also like to do yoga in the morning.  <br>
-  <a href="https://www.youtube.com/@CharlieFollows" target="_blank">
-    This is one yoga instrutor I love. 
-  </a>
-</p>
 
+    <section class="walk-section">
+      <div class="walk-details">
+        <p>
+          <i>We usually wake up </i> <strong>early</strong> <b>to go on our walk. </b> <br> 
+          But today since it was so cold and gloomy we slept in. 
+        </p>
+      </div>
+    </section>
+
+    <p class="yoga-entry">
+      I also like to do yoga in the morning.  <br>
+      <a class="yoga-link" href="https://www.youtube.com/@CharlieFollows" target="_blank">
+        This is one yoga instructor I love. 
+      </a>
+    </p>
+
+    <div class="image-container">
+      <img class="responsive-img" src="https://www.istockphoto.com/illustrations/drawing-of-the-man-walking-dog" alt="Dog walking image">
+    </div>
+
+  </main>
 
 </body>
 </html>
 
-<!--and whatever this looks like, these are comments. 
--->
